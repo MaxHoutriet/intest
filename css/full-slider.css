@@ -3,6 +3,13 @@ body {
 
 }
 
+.btn-proefles {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  padding: 10px;
+}
+
 img {
   max-width: 100%;
   max-height: 100%;
@@ -16,14 +23,29 @@ img {
    padding-bottom: 75px;
 }​
 .orange-overlay {
-    background-color: rgba(247, 152, 34, 0.5);
-    width: 300px;
-    padding: 25px;
-    margin: 25px;
+    background-color: orange;
+}
+
+.carousel-section {
+  margin-top: 100px;
+  padding-bottom: 350px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: grey;
+}
+
+.arrow-right {
+  color: black;
 }
 
 .review-section {
-  padding-bottom: 20%;
+  padding-top: 20%;
 }
 
 h1 {
@@ -51,7 +73,7 @@ hr {
   position: absolute;
   width: 30px;
   height: 30px;
-  background-color: white;
+  background-color: black;
   text-align: center;
   font-size: 25px;
   border-radius: 50%;
