@@ -45,17 +45,21 @@ img {
 
 main {
   background-color: rgba(243, 167, 32, 0.9);
-  width: 600px;
+  width: 1440px;
   margin: 20px auto;
   padding: 10px 0;
   box-shadow: 0 3px 5px rgba(0,0,0,0.3);
+}
+
+#map {
+ height: 400px;
+ width: 100%;
 }
 
 #expand {
   height: 0px;
   overflow: hidden;
   transition: height 0.5s;
-  background: url(http://placekitten.com/g/600/300);
   color: #FFF;
 }
 #toggle:checked ~ #expand {
@@ -89,7 +93,7 @@ h1 {
 
 hr {
   width: 75px;
-  height: 3px;
+  height: 7px;
   background-color: #4A8FDC;
 }
 
@@ -285,7 +289,8 @@ hr {
   color: black !important;
 }
 .mySlider2 {
-  max-width: 1200px; 
-  margin-left: auto; 
+  padding-top: 100px;
+  max-width: 1200px;
+  margin-left: auto;
   margin-right: auto;
 }
