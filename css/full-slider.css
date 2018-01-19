@@ -16,16 +16,12 @@ img {
 }
 
 .ex-2 {
-   background: 
-   linear-gradient( rgba(247, 152, 34, 0.5), rgba(247, 152, 34, 0.5)),
-   url(../img/ex-4.jpeg);
+   background-image:url(../img/ex-4.jpeg);
    height: 550px;
    width: auto;
    padding-top: 75px;
    padding-bottom: 75px;
 }​
-<<<<<<< HEAD
-=======
 .orange-overlay {
     background-color: orange;
 }
@@ -47,7 +43,6 @@ a:hover {
 .arrow-right {
   color: black;
 }
->>>>>>> ac2118c52e4f9bbb528804e61e155a59a9a6ffdd
 
 .review-section {
   padding-top: 20%;
@@ -61,189 +56,4 @@ hr {
   width: 75px;
   height: 3px;
   background-color: #4A8FDC;
-}
-
-#carousel {
-  position: absolute;
-  padding-top: 100px;
-  width: 810px;
-  margin: auto;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-}
-
-.arrow {
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  background-color: black;
-  text-align: center;
-  font-size: 25px;
-  border-radius: 50%;
-  cursor: pointer;
-  font-size: 20px;
-  color: #228291;
-  line-height: 30px;
-  margin-top: 85px;
-  z-index: 1000;
-}
-
-.arrow-right {
-  left: 780px;
-}
-
-.item {
-  text-align: center;
-  color: white;
-  font-size: 40px;
-  position: absolute;
-  transition: height 1s, width 1s, left 1s, margin-top 1s, line-height 1s, background-color 1s;
-}
-
-.level-2 {
-  height: 150px;
-  width: 110px;
-  line-height: 150px;
-  background-color: red;
-  background-image: url("img/carousel-1");
-  left: 650px;
-  margin-top: 25px;
-}
-
-.level-1 {
-  height: 180px;
-  width: 130px;
-  line-height: 180px;
-  background-color: blue;
-  left: 500px;
-  margin-top: 10px;
-}
-
-.level0 {
-  height: 200px;
-  width: 150px;
-  line-height: 200px;
-  background-color: black;
-  left: 330px;
-}
-
-.level1 {
-  height: 180px;
-  width: 130px;
-  line-height: 180px;
-  background-color: black;
-  margin-top: 10px;
-  left: 180px;
-}
-
-.level2 {
-  height: 150px;
-  width: 110px;
-  line-height: 150px;
-  background-color: black;
-  margin-top: 25px;
-  left: 50px;
-}
-
-.left-enter {
-  opacity: 0;
-  left: -60px;
-  height: 120px;
-  width: 90px;
-  line-height: 120px;
-  margin-top: 40px;
-}
-
-.left-enter.left-enter-active {
-  opacity: 1;
-  left: 50px;
-  height: 150px;
-  width: 110px;
-  line-height: 150px;
-  margin-top: 25px;
-  transition: left 1s, opacity 1s, height 1s, width 1s, margin-top 1s, line-height 1s;
-}
-
-.left-leave {
-  opacity: 1;
-  left: 650px;
-  height: 150px;
-  width: 110px;
-  line-height: 150px;
-  margin-top: 25px;
-}
-
-.left-leave.left-leave-active {
-  left: 780px;
-  opacity: 0;
-  height: 120px;
-  line-height: 120px;
-  margin-top: 40px;
-  width: 90px;
-  transition: left 1s, opacity 1s, height 1s, width 1s, margin-top 1s, line-height 1s;
-}
-
-.right-enter {
-  opacity: 0;
-  left: 760px;
-  height: 120px;
-  width: 90px;
-  line-height: 120px;
-  margin-top: 40px;
-}
-
-.right-enter.right-enter-active {
-  left: 650px;
-  opacity: 1;
-  height: 150px;
-  margin-top: 25px;
-  line-height: 150px;
-  width: 110px;
-  transition: left 1s, opacity 1s, height 1s, width 1s, margin-top 1s, line-height 1s;
-}
-
-.right-leave {
-  left: 50px;
-  height: 150px;
-  opacity: 1;
-  margin-top: 25px;
-  line-height: 150px;
-  width: 110px;
-}
-
-.right-leave.right-leave-active {
-  left: -60px;
-  opacity: 0;
-  height: 120px;
-  width: 90px;
-  line-height: 120px;
-  margin-top: 40px;
-  transition: left 1s, opacity 1s, height 1s, width 1s, margin-top 1s, line-height 1s;
-}
-
-.noselect {
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-
-.carousel-item {
-  height: 100vh;
-  min-height: 300px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-.padding-50p {
-	padding-top: 50px;
-	padding-bottom: 50px;
-	padding-left: 50px;
-	padding-right: 50px;
 }
