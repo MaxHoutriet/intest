@@ -16,12 +16,16 @@ img {
 }
 
 .ex-2 {
-   background-image:url(../img/ex-4.jpeg);
+   background: 
+   linear-gradient( rgba(247, 152, 34, 0.5), rgba(247, 152, 34, 0.5)),
+   url(../img/ex-4.jpeg);
    height: 550px;
    width: auto;
    padding-top: 75px;
    padding-bottom: 75px;
 }​
+<<<<<<< HEAD
+=======
 .orange-overlay {
     background-color: orange;
 }
@@ -43,6 +47,7 @@ a:hover {
 .arrow-right {
   color: black;
 }
+>>>>>>> ac2118c52e4f9bbb528804e61e155a59a9a6ffdd
 
 .review-section {
   padding-top: 20%;
