@@ -106,7 +106,8 @@ hr {
   height: 150px;
   width: 110px;
   line-height: 150px;
-  background-color: black;
+  background-color: red;
+  background-image: url("img/carousel-1");
   left: 650px;
   margin-top: 25px;
 }
@@ -115,7 +116,7 @@ hr {
   height: 180px;
   width: 130px;
   line-height: 180px;
-  background-color: black;
+  background-color: blue;
   left: 500px;
   margin-top: 10px;
 }
