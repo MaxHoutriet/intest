@@ -19,6 +19,10 @@
     <!-- icon library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
   </head>
 
   <body>
@@ -64,7 +68,14 @@
           <div class="col-md-12">
             <h1 class="text-center">Wat kunnen wij voor jou betekenen?</h1>
             <hr />
-  ############
+             <div class="mySlider">
+              <div><img src="img/intest-logo.png">1</div>
+              <div><img src="img/intest-logo.png">2</div>
+              <div><img src="img/intest-logo.png">3</div>
+              <div><img src="img/intest-logo.png">4</div>
+              <div><img src="img/intest-logo.png">5</div>
+              <div><img src="img/intest-logo.png">6</div>
+            </div>
           </div>
         </div>
       </div>
@@ -161,6 +172,50 @@
 
     <script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react-with-addons.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react-dom.min.js'></script>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+
+    <script type="text/javascript">
+    $(document).ready(function(){
+      // $('.mySlider').slick({
+      //   arrows : true,
+      //   dots : true,
+      //   autoplay : false
+      // });
+$('.mySlider').slick({
+  centerMode: true,
+  dots : true,
+  autoplay : false,
+  centerPadding: '60px',
+  slidesToShow: 3,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: true,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 3
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: true,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    }
+  ]
+});
+    });
+  </script>
+
+
 
     <script src="js/index.js"></script>
   </body>
