@@ -16,9 +16,7 @@ img {
 }
 
 .ex-2 {
-   background: 
-   linear-gradient( rgba(247, 152, 34, 0.5), rgba(247, 152, 34, 0.5)),
-   url(../img/ex-4.jpeg);
+   background-image:url(../img/ex-4.jpeg);
    height: 550px;
    width: auto;
    padding-top: 75px;
@@ -30,15 +28,42 @@ img {
   clip-path: polygon(0 0, 45% 0, 55% 100%, 0% 100%);
 }
 
-<<<<<<< HEAD
-=======
-.orange-overlay {
-    background-color: orange;
-}
-
 .carousel-section {
   margin-top: 100px;
   padding-bottom: 350px;
+}
+
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+main {
+  background-color: rgba(243, 167, 32, 0.9);
+  width: 600px;
+  margin: 20px auto;
+  padding: 10px 0;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.3);
+}
+
+#expand {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+  background: url(http://placekitten.com/g/600/300);
+  color: #FFF;
+}
+#toggle:checked ~ #expand {
+  height: 250px;
+}
+
+input {
+  visibility: hidden;
 }
 
 a {
@@ -53,7 +78,6 @@ a:hover {
 .arrow-right {
   color: black;
 }
->>>>>>> ac2118c52e4f9bbb528804e61e155a59a9a6ffdd
 
 .review-section {
   padding-top: 20%;
