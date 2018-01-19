@@ -1,0 +1,28 @@
+<style>
+main {
+  background-color: rgba(243, 167, 32, 0.9);
+  width: 600px;
+  margin: 20px auto;
+  padding: 10px 0;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.3);
+}
+
+#expand {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+  background: url(http://placekitten.com/g/600/300);
+  color: #FFF;
+}
+#toggle:checked ~ #expand {
+  height: 250px;
+}
+
+</style>
+
+<main>
+  <input id="toggle" type="checkbox">
+  <label for="toggle">Bekijk of we ook bij jou lessen</label>
+  <div id="expand">
+  </div>
+</main>
