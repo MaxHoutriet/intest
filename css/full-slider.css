@@ -253,3 +253,15 @@ hr {
 	padding-left: 50px;
 	padding-right: 50px;
 }
+
+.slick-prev:before {
+  color: black !important;
+}
+.slick-next:before {
+  color: black !important;
+}
+.mySlider2 {
+  max-width: 1200px; 
+  margin-left: auto; 
+  margin-right: auto;
+}
